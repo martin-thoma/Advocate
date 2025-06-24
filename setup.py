@@ -3,8 +3,8 @@ import setuptools
 from codecs import open
 
 requires = [
-    'requests <3.0, >=2.18.0',
-    'urllib3 <2.0, >=1.22',
+    'requests >=2.18.0',
+    'urllib3 >=1.22',
     'netifaces>=0.10.5',
 ]
 
@@ -27,7 +27,6 @@ setuptools.setup(
     packages=packages,
     install_requires=requires,
     tests_require=[
-        "mock",
         "pytest",
         "pytest-cov",
         "requests-futures",
@@ -47,11 +46,9 @@ setuptools.setup(
         'Natural Language :: English',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
-        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'Topic :: Security',
         'Topic :: Internet :: WWW/HTTP',
     ],
